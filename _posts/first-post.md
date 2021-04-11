@@ -6,7 +6,7 @@ date: 2020-04-17
 
 # h1
 
-cats and dogs
+**cats** and dogs
 
 ## h2
 
