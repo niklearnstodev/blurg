@@ -3,12 +3,14 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown/with-html";
+// import style from "./slug.module.css";
 
 export default function Post({ content, frontmatter }) {
   return (
     <Layout>
       <article>
-        <ReactMarkdown escapeHtml={false} source={content} />
+        {/* <ReactMarkdown className={style.slugMarkDown} source={content} /> */}
+        <ReactMarkdown className="prose" source={content} />
       </article>
     </Layout>
   );
@@ -46,7 +48,7 @@ export async function getStaticProps({ params: { slug } }) {
 
   return {
     props: {
-      content: `# ${data.title}\n${content}`,
+      content: `# ${data.title}\n #### ${formattedDate}\n${content}`,
       frontmatter,
     },
   };

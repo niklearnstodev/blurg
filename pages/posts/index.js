@@ -9,7 +9,7 @@ export default function Home({ posts }) {
       {posts.length == 0 ? (
         <Layout>
           <header>
-            <h3 className="text-3xl font-semibold text-purple-600 no-underline">
+            <h3 className="text-3xl mb-2 font-semibold text-purple-600 no-underline">
               No posts!
             </h3>
           </header>
