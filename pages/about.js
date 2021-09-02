@@ -16,7 +16,7 @@ export default function About() {
           </p>
           <p>
             I'm currently living the remote dream in Nelson, British Columbia,
-            wiritng code between sports!
+            writing code between sports!
           </p>
         </span>
       </header>

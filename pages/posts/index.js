@@ -14,7 +14,7 @@ export default function Home({ posts }) {
             </h3>
           </header>
           <section>
-            <p>Some turkey has not yet written any posts. 🦃</p>
+            <p>No posts yet. 🦃</p>
           </section>
         </Layout>
       ) : (
